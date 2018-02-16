@@ -1,13 +1,12 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Four Kitchens Web VR Landing Page
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+## How to Install
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+- `yarn global add gatsby-cli` to install [Gatsby](https://www.gatsbyjs.org/).
+- `yarn` to install project dependencies
+- `gatsby develop` to start a hot-reloading development environment accessible at localhost:8000
 
-## Deploy
+## Additional commands
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+- `gatsby build` will perform an optimized production build for your site generating static HTML and per-route JavaScript code bundles.
+- `gatsby serve` starts a local HTML server for testing your built site.
