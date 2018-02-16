@@ -1,0 +1,17 @@
+@import '../../assets/vars.scss';
+
+.splash {
+  background: gray;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.title {
+  color: $color--dark-gray;
+  font-size: 59px;
+}
+
+.subhead {
+  color: $color--black;
+  font-size: 31px;
+}
