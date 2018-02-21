@@ -1,17 +1,24 @@
-@import '../../assets/vars.scss';
+@import "../../assets/vars.scss";
 
 .splash {
-  background: gray;
-  padding-top: 50px;
+  background: url("../../assets/splash-bkg.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  padding-top: 2rem;
+  padding: 2rem 5rem 5rem;
   text-align: center;
 }
 
 .title {
   color: $color--dark-gray;
   font-size: 59px;
+  margin-bottom: 1rem;
 }
 
 .subhead {
-  color: $color--black;
+  color: $color--dark-gray;
   font-size: 31px;
+  font-weight: normal;
+  margin-bottom: 2.5rem;
 }

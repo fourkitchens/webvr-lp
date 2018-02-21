@@ -1,0 +1,83 @@
+@import "../../assets/vars.scss";
+
+.callToAction {
+  background: url("../../assets/green-pattern.jpg") no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 1rem 1rem 5rem 1rem;
+
+  @media screen and (min-width: 600px) {
+    padding: 2.5rem 2.5rem 5rem 2.5rem;
+  }
+
+  margin-bottom: 500px;
+}
+
+.title {
+  font-size: 2.2rem;
+
+  @media screen and (min-width: 820px) {
+    font-size: 2.944444444rem;
+  }
+
+  br {
+    display: none;
+
+    @media screen and (min-width: 640px) {
+      display: block;
+    }
+  }
+}
+
+.list {
+  font-size: 1.055555556rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+
+  @media screen and (min-width: 820px) {
+    margin-bottom: 3rem;
+  }
+
+  li {
+    line-height: 1;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.buttonContainer {
+  position: relative;
+
+  @media screen and (min-width: 820px) {
+    margin-left: 3rem;
+  }
+}
+
+.button {
+  background: $color--yellow;
+  border: none;
+  border-radius: 5px;
+  color: $color--dark-gray;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.15s;
+
+  &:hover {
+    background: darken($color--yellow, 5%);
+  }
+}
+
+.handwriting {
+  position: absolute;
+  top: 4.2rem;
+  left: 1rem;
+
+  @media screen and (min-width: 820px) {
+    left: -2.4rem;
+  }
+}

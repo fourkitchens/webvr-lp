@@ -1,0 +1,44 @@
+.strata {
+  background: green;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-start;
+  flex-flow: row nowrap;
+  padding: 3rem 1rem;
+  position: relative;
+  transition: all 0.15s;
+
+  @media screen and (min-width: 600px) {
+    min-height: 500px;
+    padding: 2.5rem;
+  }
+  @media screen and (min-width: 950px) {
+    flex-flow: row-reverse nowrap;
+  }
+}
+
+.content {
+  background: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 345px;
+
+  @media screen and (min-width: 600px) {
+    margin: 0;
+  }
+}
+
+.contentLeft {
+  @media screen and (min-width: 950px) {
+    flex-flow: row nowrap;
+  }
+}
+
+.headline {
+  font-size: 2.666666667rem;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
