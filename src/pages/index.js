@@ -3,6 +3,7 @@ import Link from "gatsby-link";
 import Splash from "../components/Splash/Splash";
 import Strata from "../components/Strata/Strata";
 import CallToAction from "../components/CallToAction/CallToAction";
+import Footer from "../components/Footer/Footer";
 import farmingHeaderImage from "../assets/successful-farming-ag.svg";
 import farmingBackgroundImage from "../assets/bkg-successful-farming.jpg";
 import webchefsBackgroundImage from "../assets/bkg-webchefs.jpg";
@@ -23,6 +24,7 @@ const IndexPage = () => (
       backgroundImage={webchefsBackgroundImage}
     />
     <CallToAction />
+    <Footer />
     {/* <h1
       style={{
         color: 'red',

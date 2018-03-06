@@ -17,6 +17,10 @@
   @media screen and (min-width: 950px) {
     flex-flow: row-reverse nowrap;
   }
+  @media screen and (min-width: 1400px) {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
 }
 
 .content {
