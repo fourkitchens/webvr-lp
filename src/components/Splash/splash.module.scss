@@ -1,24 +1,70 @@
 @import "../../assets/vars.scss";
 
 .splash {
-  background: url("../../assets/splash-bkg.jpg");
+  background: url("../../assets/splash-bkg.jpg") no-repeat;
   background-size: cover;
-  background-position: bottom center;
-  height: 100vh;
-  padding-top: 2rem;
-  padding: 2rem 5rem 5rem;
+  background-position: top center;
+}
+
+.section {
+  padding: 1.5rem 2rem 2.5rem;
   text-align: center;
+
+  @media (min-width: 1000px) {
+    padding: 2rem 5rem 2.5rem;
+  }
+}
+
+.logo {
+  @media (max-width: 500px) {
+    margin-bottom: 0.5rem;
+    width: 170px;
+  }
+}
+
+.break {
+  @media (max-width: 460px) {
+    display: none;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.viewer {
+  margin-bottom: 0;
+}
+
+.cardboard-viewer-bkg {
+  background: url("../../assets/splash-bkg.jpg");
 }
 
 .title {
   color: $color--dark-gray;
-  font-size: 59px;
+  font-size: 2rem;
   margin-bottom: 1rem;
+
+  @media (min-width: 700px) {
+    font-size: 2.5rem;
+  }
+
+  @media (min-width: 1000px) {
+    font-size: 3.277777778rem;
+  }
 }
 
 .subhead {
   color: $color--dark-gray;
-  font-size: 31px;
+  font-size: 1.2rem;
   font-weight: normal;
   margin-bottom: 2.5rem;
+
+  @media (min-width: 700px) {
+    font-size: 1.45rem;
+  }
+
+  @media (min-width: 1000px) {
+    font-size: 1.722222222rem;
+  }
 }

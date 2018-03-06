@@ -23,12 +23,10 @@ const header = (headerImage, headline) => {
 const Strata = props => (
   <article
     className={getStrataContentClass(props.displaySideRight)}
-    style={{
-      backgroundImage: `url(${props.backgroundImage})`
-    }}
+    style={{ backgroundImage: `url(${props.backgroundImage})` }}
   >
     <section className={styles.content}>
-      {header(props.headerImage, props.headline, styles)}
+      {header(props.headerImage, props.headline)}
       <p>{props.paragraph}</p>
       <Button link="/page-2">Enter</Button>
     </section>
