@@ -1,14 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Button from "../Button/Button";
-import classNames from "classnames";
-import styles from "./strata.module.scss";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Button from '../Button/Button';
+import classNames from 'classnames';
+import styles from './strata.module.scss';
 
 const cx = classNames.bind(styles);
 
 const getStrataContentClass = displaySideRight =>
   cx(styles.strata, {
-    [styles.contentLeft]: !displaySideRight
+    [styles.contentLeft]: !displaySideRight,
   });
 
 const header = (headerImage, headline) => {
@@ -33,14 +33,14 @@ const Strata = props => (
   </article>
 );
 
-Strata.defaultProps = { headerImage: "", headline: "" };
+Strata.defaultProps = { headerImage: '', headline: '' };
 
 Strata.propTypes = {
   displaySideRight: PropTypes.bool.isRequired,
   headerImage: PropTypes.string,
   headline: PropTypes.string,
   paragraph: PropTypes.string.isRequired,
-  backgroundImage: PropTypes.string.isRequired
+  backgroundImage: PropTypes.string.isRequired,
 };
 
 export default Strata;

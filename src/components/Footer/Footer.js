@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./footer.module.scss";
-import logo from "../../assets/4k-logo-reversed.svg";
+import React from 'react';
+import styles from './footer.module.scss';
+import logo from '../../assets/4k-logo-reversed.svg';
 
 const Footer = () => (
   <footer className={styles.footer}>

@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./call-to-action.module.scss";
-import arrowCallout from "../../assets/arrow-callout.png";
-import vrUser from "../../assets/happy-vr-user.png";
-import vrUserSmall from "../../assets/happy-vr-user-small.png";
+import React from 'react';
+import styles from './call-to-action.module.scss';
+import arrowCallout from '../../assets/arrow-callout.png';
+import vrUser from '../../assets/happy-vr-user.png';
+import vrUserSmall from '../../assets/happy-vr-user-small.png';
 
 const CallToAction = () => (
   <article className={styles.callToAction}>

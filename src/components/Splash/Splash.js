@@ -1,8 +1,8 @@
-import React from "react";
-import Button from "../Button/Button";
-import fourkitchensLogo from "../../assets/4k-logo.svg";
-import viewer from "../../assets/cardboard-viewer.png";
-import styles from "./splash.module.scss";
+import React from 'react';
+import Button from '../Button/Button';
+import fourkitchensLogo from '../../assets/4k-logo.svg';
+import viewer from '../../assets/cardboard-viewer.png';
+import styles from './splash.module.scss';
 
 const Splash = () => (
   <header className={styles.splash}>
@@ -16,7 +16,7 @@ const Splash = () => (
         We create WebVR <span className={styles.nowrap}>for Everyone.</span>
       </h1>
       <h2 className={styles.subhead}>
-        Explore the experiences we’ve made using <br className={styles.break} />{" "}
+        Explore the experiences we’ve made using <br className={styles.break} />{' '}
         the phone & computer you already have.
       </h2>
       <Button link="/page-2">View This Page in VR</Button>
