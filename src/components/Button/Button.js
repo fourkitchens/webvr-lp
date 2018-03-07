@@ -14,7 +14,8 @@ const Button = props => (
 );
 
 Button.propTypes = {
-  link: PropTypes.string.isRequired
+  link: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 export default Button;

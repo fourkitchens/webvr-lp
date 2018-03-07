@@ -33,6 +33,8 @@ const Strata = props => (
   </article>
 );
 
+Strata.defaultProps = { headerImage: "", headline: "" };
+
 Strata.propTypes = {
   displaySideRight: PropTypes.bool.isRequired,
   headerImage: PropTypes.string,
