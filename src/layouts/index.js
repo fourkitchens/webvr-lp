@@ -9,7 +9,7 @@ const metaInfo = {
     'Four Kitchens creates WebVR for Everyone. Explore the experiences we’ve made using the phone & computer you already have.',
   keywords:
     'immersive technology , android, ar, article, augmented, augmented reality, browser, device, experience, google, headset, phone, reality, space, technologies, virtual reality, vr, web, webar, webvr',
-  url: 'https://fourkitchens.github.io/webvr-lp/',
+  url: 'https://vr.fourkitchens.com',
 };
 
 const TemplateWrapper = ({ children }) => (
