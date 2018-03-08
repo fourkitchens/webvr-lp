@@ -28,7 +28,7 @@ const Strata = props => (
     <section className={styles.content}>
       {header(props.headerImage, props.headline)}
       <p>{props.paragraph}</p>
-      <Button link="/page-2">Enter</Button>
+      <Button link={props.linkDestination}>Enter</Button>
     </section>
   </article>
 );
@@ -41,6 +41,7 @@ Strata.propTypes = {
   headline: PropTypes.string,
   paragraph: PropTypes.string.isRequired,
   backgroundImage: PropTypes.string.isRequired,
+  linkDestination: PropTypes.string.isRequired,
 };
 
 export default Strata;

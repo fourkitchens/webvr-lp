@@ -15,12 +15,14 @@ const IndexPage = () => (
       headerImage={farmingHeaderImage}
       paragraph="Explore Carroll Etchen’s shop complex, filled with a collection of tractors, cars, and trucks and a shop with an indoor wash bay."
       backgroundImage={farmingBackgroundImage}
+      linkDestination="http://shoptour.fourkitchens.com/"
     />
     <Strata
       displaySideRight={false}
       headline="Meet the Web Chefs"
       paragraph="Learn more about the team here at Four Kitchens as you explore their homes and their hobbies."
       backgroundImage={webchefsBackgroundImage}
+      linkDestination="http://webchefvr.fourkitchens.com/"
     />
     <CallToAction />
     <Footer />

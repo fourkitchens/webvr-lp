@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../Button/Button';
+// import Button from '../Button/Button';
 import fourkitchensLogo from '../../assets/4k-logo.svg';
 import viewer from '../../assets/cardboard-viewer.png';
 import styles from './splash.module.scss';
@@ -19,7 +19,7 @@ const Splash = () => (
         Explore the experiences we’ve made using <br className={styles.break} />{' '}
         the phone & computer you already have.
       </h2>
-      <Button link="/page-2">View This Page in VR</Button>
+      {/* <Button link="/page-2">View This Page in VR</Button> */}
     </section>
     <img src={viewer} alt="Cardboard VR Viewer" className={styles.viewer} />
   </header>
