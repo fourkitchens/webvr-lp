@@ -21,7 +21,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: metaInfo.keywords },
         { property: 'og:title', content: metaInfo.title },
         { property: 'og:description', content: metaInfo.description },
-        { property: 'og:image', content: `http://` },
+        { property: 'og:image', content: promoImage },
         { property: 'og:url', content: metaInfo.url },
         { name: 'twitter:card', content: 'summary_large_image' },
       ]}
