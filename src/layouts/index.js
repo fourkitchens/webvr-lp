@@ -19,10 +19,10 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: metaInfo.description },
         { name: 'keywords', content: metaInfo.keywords },
-        { name: 'og:title', content: metaInfo.title },
-        { name: 'og:description', content: metaInfo.description },
-        { name: 'og:image', content: promoImage },
-        { name: 'og:url', content: metaInfo.url },
+        { property: 'og:title', content: metaInfo.title },
+        { property: 'og:description', content: metaInfo.description },
+        { property: 'og:image', content: `http://` },
+        { property: 'og:url', content: metaInfo.url },
         { name: 'twitter:card', content: 'summary_large_image' },
       ]}
       link={[
