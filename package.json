@@ -4,14 +4,17 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "add": "^2.0.6",
     "classnames": "^2.2.5",
     "gatsby": "^1.9.199",
     "gatsby-link": "^1.6.37",
+    "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-google-analytics": "^1.0.23",
     "gatsby-plugin-postcss-sass": "^1.0.17",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "gatsby-plugin-typography": "^1.7.14",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "yarn": "^1.5.1"
   },
   "keywords": ["gatsby"],
   "license": "MIT",
