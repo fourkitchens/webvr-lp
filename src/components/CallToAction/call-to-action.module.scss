@@ -1,7 +1,7 @@
-@import "../../assets/vars.scss";
+@import '../../assets/vars.scss';
 
 .callToAction {
-  background: url("../../assets/green-pattern.jpg") no-repeat;
+  background: url('../../assets/green-pattern.jpg') no-repeat;
   background-size: cover;
   color: #fff;
   display: flex;
@@ -104,32 +104,20 @@
 }
 
 .person {
-  margin-bottom: 0;
   display: none;
-  max-width: 890px;
+  margin-bottom: 0;
   position: absolute;
   right: 0;
   bottom: 0;
   width: 72%;
   margin-right: 1rem;
 
-  @media (min-width: 1484px) {
+  @media (min-width: 1040px) {
     display: block;
+    max-width: 525px;
   }
-}
 
-.personSmall {
-  margin-bottom: 0;
-  position: absolute;
-  right: -1rem;
-  width: 57%;
-  max-width: 700px;
-  display: none;
-
-  @media (min-width: 1073px) {
-    display: block;
-  }
-  @media (min-width: 1484px) {
-    display: none;
+  @media (min-width: 1230px) {
+    max-width: 714px;
   }
 }
